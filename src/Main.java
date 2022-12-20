@@ -85,7 +85,8 @@ public class Main {
         System.out.println(Arrays.toString(numbers));
         for (int i = 0; i < numbers.length; i++) {
             if (numbers[i] % 2 != 0) {
-                System.out.println(numbers[i] + 1);
+                numbers[i] ++;
+                System.out.print (numbers[i] + " ");
             }
         }
 
